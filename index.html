@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel ="stylesheet" href = "style.css">
+  <script src="https://kit.fontawesome.com/3e1df4e3d4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+    <div class="income">
+      <p id = "t1">Enter gross annual income <i class="fa-solid fa-question" id="l1"></i></p>
+      <p id="t2"><input type="text" placeholder="Enter gross annual income" id="i1"> <i class="fa-solid fa-exclamation" id="l2"></i></p>
+    </div>
+    <div class="eincome">
+      <p id ="t3">Enter extra income <i class="fa-solid fa-question" id="l3"></i></p>
+      <p id ="t4"><input type="text" placeholder="Enter extra income from other sources" id="i2"></p>
+    </div>
+      <p id ="t6">Enter age group <i class="fa-solid fa-question" id="l4"></i></p>
+      <div class="select">
+      <select id="Age">
+        <option value="0"></option>
+        <option value="1">18-25</option>
+        <option value="2">25-35</option>
+        <option value="3">36-45</option>
+        <option value="4">46-55</option>
+    </select>
+      </div>
+    <div class="deductions">
+      <p id="t5">Enter total applicable deductions <i class="fa-solid fa-question" id="l5"></i></p>
+      <input typ="text" placeholder="Add total applicable deductions" id="i3">
+    </div>
+    <div class="button">
+      <button id="b1">Submit</button>
+    </div>
+    </div>
+    <div id="result"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
